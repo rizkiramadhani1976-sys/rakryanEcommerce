@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+p {
+  font-weight: 700;
+}
+
+#pembuka {
+  background-image: url("picture/main/scandinavian-interior-mockup-wall-decal-background 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+}
+/* navbar */
+.navbar {
+  padding: 30px 0px;
+  position: relative;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 20px;
+}
+
+#navKiri {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+
+#navKiri img {
+  width: auto;
+  height: 140%;
+}
+
+#navKiri h1 {
+  margin: 0;
+}
+
+#navTengah {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 90px;
+  width: 50%;
+}
+
+#navTengah a {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#navKanan {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+#navKanan a img{
+  height:80%;
+  width: auto;
+}
+/* navbar end */
+
+/* newArrival */
+#newArrival {
+  background-color: #FFF3E3;
+  width: 643px;
+  height:443px;
+  border-radius: 10px;
+  background-clip: padding-box;
+  position: relative;
+  top: 17%; 
+  left: 56%;
+  padding: 40px;
+}
+
+/* newArrival end */
