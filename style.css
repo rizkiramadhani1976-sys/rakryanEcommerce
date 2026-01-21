@@ -679,6 +679,28 @@ footer {
 }
 /* footer end */
 
+/* page 2 */
+
+/* pembukaan  */
+#P2-pembukaan {
+  background-image: url('picture/P2/Pembukaan.jpg');
+  opacity: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+
+#P2PA {
+  display: flex;
+  flex-direction: column;
+}
+
+#P2PA img {
+}
+/* pembukaan end */
+
+/* page 2 end */
+
 @media (max-width: 576px) {
   * {
     border: none;
