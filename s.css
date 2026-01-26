@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* navbar */
+.navbar {
+  padding: 30px 0px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 20px;
+}
+
+#navKiri {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+
+#navKiri img {
+  width: auto;
+  height: 140%;
+}
+
+#navKiri h1 {
+  margin: 0;
+}
+
+#navTengah {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 90px;
+  width: 50%;
+}
+
+#navTengah a {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#navKanan {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+#navKanan a img {
+  height: 80%;
+  width: auto;
+}
+/* navbar end */
+
+#A {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #F9F1E7;
+  padding: 2% 4%;
+  gap: 1.5vw;
+}
+
+.App{
+  font-weight: 600;
+  color: gray ;
+} 
+
+.App span{
+  color: black;
+  margin: 0 0.5vw;
+}
+
+#A div {
+  background-color: gray;
+  height: 2rem;
+  width: 0.1rem;
+}
+
+.Ap {
+  color: black;
+  font-weight: 500;
+}
+
+/* bagian atas */
+
